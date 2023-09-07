@@ -14,7 +14,26 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//data-jpa     <v>
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.4'
+	//mysql cpnnector      <v>
+	implementation 'mysql:mysql-connector-java:8.0.31'
+	//swagger api <v>
+//	implementation 'io.springfox:springfox-swagger2:2.9.2'
+//	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.12'
+//  橫切物件導向<v>
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+//	thymeleaf<v>
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+//  starter<v>
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	//cache
+	implementation 'org.springframework.boot:spring-boot-starter-cache'
+	//cache
+	implementation 'com.github.ben-manes.caffeine:caffeine'
 }
 
 tasks.named('test') {

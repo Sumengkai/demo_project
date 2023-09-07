@@ -1,19 +1,14 @@
 package com.example.demo_project.entity;
 
 public class Person { // entity
-	private String name ="1";// entity
+	private String name;// entity
 	private String id;// entity
-	private String city ="3";// entity
-	private int age = 4;// entity
+	private String city ;// entity
+	private int age;// entity
 	public Person() {
 		
 	}
-//	public Preson(String name, String id, String city,int age) {
-//		this.city = city;
-//		this.name = name;
-//		this.age = age;
-//		this.id = id;
-//	}
+
 	public String getName() {
 		return name;
 	}

@@ -1,0 +1,4 @@
+09:51:16.058 INFO  [main][DemoProjectApplication.logStarting(StartupInfoLogger.java:55)] Starting DemoProjectApplication using Java 17.0.2 on DESKTOP-8EH4641 with PID 7016 (D:\firstjava\java1\demo_project\bin\main started by lenovo in D:\firstjava\java1\demo_project)
+09:51:16.064 INFO  [main][DemoProjectApplication.logStartupProfileInfo(SpringApplication.java:645)] No active profile set, falling back to 1 default profile: "default"
+09:51:17.336 INFO  [main][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:132)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:51:17.474 INFO  [main][RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:201)] Finished Spring Data repository scanning in 120 ms. Found 6 JPA repository interfaces.
